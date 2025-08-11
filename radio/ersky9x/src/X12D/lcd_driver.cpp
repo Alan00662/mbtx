@@ -588,7 +588,7 @@ const uint16_t font_smlsize_specs[] = {
 };
 
 //const uint8_t font_smlsize[] = {
-//#include "font_smlsize.lbm"
+//#include "lbm/font_smlsize.lbm"
 //};
 
 const uint16_t font_tinsize_specs[] = {
@@ -1083,12 +1083,12 @@ extern uint8_t MaintenanceRunning ;
 #endif
 }
 
-#include "..\font.lbm"
+#include "..\lbm\font.lbm"
 
 #ifdef INVERT_DISPLAY
 //const uint8_t RomFontSmall[] =
 //{
-//#include "font.lbm"
+//#include "lbm/font.lbm"
 //} ;
 
 //const uint8_t RomFont5x7h[] =
@@ -1282,7 +1282,7 @@ void invertFont( uint8_t *dest, uint8_t *source, uint32_t bytesPerChar, uint32_t
 #else
 //const uint8_t FontSmall[] =
 //{
-//#include "font.lbm"
+//#include "lbm/font.lbm"
 //} ;
 //const uint8_t Font5x7h[] =
 //{
@@ -2429,7 +2429,7 @@ void backlight_set( uint16_t brightness )
 // Temporary
 //#include "ff.h"
 
-////#include "font.lbm"
+////#include "lbm/font.lbm"
 //FIL FontFile = {0} ;
 
 //extern uint16_t lcd_putcAttDblColour(uint16_t x,uint16_t y,const char c,uint8_t mode, uint16_t colour, uint16_t background ) ;

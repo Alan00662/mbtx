@@ -80,7 +80,7 @@ SKYModelData TempModelData ;
 //uint32_t FileSequenceNumber[MAX_MODELS + 1] ;
 
 #include "../sticks.lbm"
-#include "../font.lbm"
+#include "../lbm/font.lbm"
 #define font_5x8_x20_x7f (font)
 
 union t_fileHeader

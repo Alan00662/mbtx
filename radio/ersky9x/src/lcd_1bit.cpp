@@ -46,28 +46,28 @@ struct PatternData
 
 
 const unsigned char Pfont_5x7[] = {
-#include "font_05x07.lbm"
+#include "lbm/font_05x07.lbm"
 } ;
 
 const unsigned char Pfont_5x7Bold[] = {
-#include "font_05x07_B_compressed.lbm"
+#include "lbm/font_05x07_B_compressed.lbm"
 } ;
 
 const unsigned char Pfont_5x7_extra[] = {
-#include "font_05x07_extra.lbm"
+#include "lbm/font_05x07_extra.lbm"
 } ;
 
 
 const unsigned char Pfont_10x14[] = {
-#include "font_10x14.lbm"
+#include "lbm/font_10x14.lbm"
 } ;
 
 const unsigned char Pfont_10x14_extra[] = {
-#include "font_10x14_extra.lbm"
+#include "lbm/font_10x14_extra.lbm"
 } ;
 
 const unsigned char Pfont_8x10[] = {
-#include "font_08x10.lbm"
+#include "lbm/font_08x10.lbm"
 } ;
 
 const unsigned char Pfont_4x6[] = {
@@ -75,35 +75,35 @@ const unsigned char Pfont_4x6[] = {
 } ;
 
 const unsigned char Pfont_4x6_extra[] = {
-#include "font_04x06_extra.lbm"
+#include "lbm/font_04x06_extra.lbm"
 } ;
 
 const unsigned char Pfont_3x5[] = {
-#include "font_03x05.lbm"
+#include "lbm/font_03x05.lbm"
 } ;
 
 const uint8_t font_se_extra[] = {
-#include "fontp_se_05x07.lbm"
+#include "lbm/fontp_se_05x07.lbm"
 } ;
 
 const uint8_t font_fr_extra[] = {
-#include "fontp_fr_05x07.lbm"
+#include "lbm/fontp_fr_05x07.lbm"
 } ;
 
 const uint8_t font_de_extra[] = {
-#include "fontp_de_05x07.lbm"
+#include "lbm/fontp_de_05x07.lbm"
 } ;
 
 const uint8_t font_it_extra[] = {
-#include "fontp_it_05x07.lbm"
+#include "lbm/fontp_it_05x07.lbm"
 } ;
 
 const uint8_t font_pl_extra[] = {
-#include "fontp_pl_05x07.lbm"
+#include "lbm/fontp_pl_05x07.lbm"
 } ;
 
 const uint8_t font_es_extra[] = {
-#include "fontp_es_05x07.lbm"
+#include "lbm/fontp_es_05x07.lbm"
 } ;
 
 const uint8_t *Lfonts[] = { 0, font_fr_extra, font_de_extra,

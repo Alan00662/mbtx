@@ -47,9 +47,9 @@
 #ifndef PCBX12D
 #ifndef PCBX10
  #ifndef PROP_TEXT
-#include "font.lbm"
+#include "lbm/font.lbm"
 #define font_5x8_x20_x7f (font)
-#include "font_dblsize.lbm"
+#include "lbm/font_dblsize.lbm"
 #define font_10x16_x20_x7f (font_dblsize)
 
 #include "font12x8test.lbm"
@@ -59,23 +59,23 @@
 #ifndef SMALL
  #ifndef PCBLEM1
 const uint8_t font_se_extra[] = {
-#include "font_se_05x07.lbm"
+#include "lbm/font_se_05x07.lbm"
 } ;
  #endif
 #endif
 const uint8_t font_fr_extra[] = {
-#include "font_fr_05x07.lbm"
+#include "lbm/font_fr_05x07.lbm"
 } ;
 const uint8_t font_de_extra[] = {
-#include "font_de_05x07.lbm"
+#include "lbm/font_de_05x07.lbm"
 } ;
 #ifndef SMALL
  #ifndef PCBLEM1
 const uint8_t font_it_extra[] = {
-#include "font_it_05x07.lbm"
+#include "lbm/font_it_05x07.lbm"
 } ;
 const uint8_t font_pl_extra[] = {
-#include "font_pl_05x07.lbm"
+#include "lbm/font_pl_05x07.lbm"
 } ;
  #endif
 #endif
@@ -86,22 +86,22 @@ const uint8_t font_pl_extra[] = {
 #ifndef SMALL
  #ifndef PCBLEM1
 const uint8_t font_se_big_extra[] = {
-#include "font_se_10x14.lbm"
+#include "lbm/font_se_10x14.lbm"
 } ;
  #endif
 #endif
 const uint8_t font_fr_big_extra[] = {
-#include "font_fr_10x14.lbm"
+#include "lbm/font_fr_10x14.lbm"
 } ;
 const uint8_t font_de_big_extra[] = {
-#include "font_de_10x14.lbm"
+#include "lbm/font_de_10x14.lbm"
 } ;
 #endif
  #endif // PROP_TEXT
 
 
  #ifndef PROP_TEXT
-#include "font_04x06.lbm"
+#include "lbm/font_04x06.lbm"
  #endif // PROP_TEXT
 //#define font_5x8_x20_x7f (font)
 

@@ -172,9 +172,9 @@ extern uint8_t LastTaction ;
 const uint8_t Icon24log[] =
 {
 #if defined(PCBX10)
-#include "icon24loginv.lbm"
+#include "lbm/icon24loginv.lbm"
 #else
-#include "icon24log.lbm"
+#include "lbm/icon24log.lbm"
 #endif
 } ;
 

@@ -640,101 +640,101 @@ const uint8_t IconX12Logging[] =
 const uint8_t IconMusic[] =
 {
 #if defined(PCBX10)
-#include "iconMusicinv.lbm"
+#include "lbm/iconMusicinv.lbm"
 #else
-#include "iconMusic.lbm"
+#include "lbm/iconMusic.lbm"
 #endif
 } ;
 const uint8_t IconMix[] =
 {
 #if defined(PCBX10)
-#include "iconMixinv.lbm"
+#include "lbm/iconMixinv.lbm"
 #else
-#include "iconMix.lbm"
+#include "lbm/iconMix.lbm"
 #endif
 } ;
 const uint8_t IconHeli[] =
 {
 #if defined(PCBX10)
-#include "iconHeliinv.lbm"
+#include "lbm/iconHeliinv.lbm"
 #else
-#include "iconHeli.lbm"
+#include "lbm/iconHeli.lbm"
 #endif
 } ;
 const uint8_t IconDrate[] =
 {
 #if defined(PCBX10)
-#include "iconDrateinv.lbm"
+#include "lbm/iconDrateinv.lbm"
 #else
-#include "iconDrate.lbm"
+#include "lbm/iconDrate.lbm"
 #endif
 } ;
 const uint8_t IconBt[] =
 {
 #if defined(PCBX10)
-#include "iconBtinv.lbm"
+#include "lbm/iconBtinv.lbm"
 #else
-#include "iconBt.lbm"
+#include "lbm/iconBt.lbm"
 #endif
 } ;
 const uint8_t IconProto[] =
 {
 #if defined(PCBX10)
-#include "iconProtoinv.lbm"
+#include "lbm/iconProtoinv.lbm"
 #else
-#include "iconProto.lbm"
+#include "lbm/iconProto.lbm"
 #endif
 } ;
 const uint8_t IconLimits[] =
 {
 #if defined(PCBX10)
-#include "iconLimitsinv.lbm"
+#include "lbm/iconLimitsinv.lbm"
 #else
-#include "iconLimits.lbm"
+#include "lbm/iconLimits.lbm"
 #endif
 } ;
 const uint8_t IconCurve[] =
 {
 #if defined(PCBX10)
-#include "iconCurveinv.lbm"
+#include "lbm/iconCurveinv.lbm"
 #else
-#include "iconCurve.lbm"
+#include "lbm/iconCurve.lbm"
 #endif
 } ;
 
 const uint8_t IconTelem[] =
 {
 #if defined(PCBX10)
-#include "iconTeleminv.lbm"
+#include "lbm/iconTeleminv.lbm"
 #else
-#include "iconTelem.lbm"
+#include "lbm/iconTelem.lbm"
 #endif
 } ;
 
 const uint8_t IconVoice[] =
 {
 #if defined(PCBX10)
-#include "iconVoiceinv.lbm"
+#include "lbm/iconVoiceinv.lbm"
 #else
-#include "iconVoice.lbm"
+#include "lbm/iconVoice.lbm"
 #endif
 } ;
 
 const uint8_t IconLswitch[] =
 {
 #if defined(PCBX10)
-#include "iconLswitchinv.lbm"
+#include "lbm/iconLswitchinv.lbm"
 #else
-#include "iconLswitch.lbm"
+#include "lbm/iconLswitch.lbm"
 #endif
 } ;
 
 const uint8_t IconTimer[] =
 {
 #if defined(PCBX10)
-#include "iconTimerinv.lbm"
+#include "lbm/iconTimerinv.lbm"
 #else
-#include "iconTimer.lbm"
+#include "lbm/iconTimer.lbm"
 #endif
 } ;
 
@@ -19394,7 +19394,7 @@ void menuTest(uint8_t event)
 #if defined(PCBX12D) || defined(PCBX10)
 const uint8_t Icon24_1[] =
 {
-#include "icon24_1inv.lbm"
+#include "lbm/icon24_1inv.lbm"
 } ;
 
 extern void lcdDrawBitmapDMA(uint16_t x, uint16_t y, uint16_t w, uint16_t h, const uint8_t * bitmap, uint8_t type) ;
