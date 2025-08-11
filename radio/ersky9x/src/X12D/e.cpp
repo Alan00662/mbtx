@@ -136,7 +136,7 @@ extern uint32_t loadModelImage( void ) ;
 #include "CoOS.h"
 #endif
 
-#include "../../common/hand.lbm"
+#include "../common/hand.lbm"
 
 //#define PCB_TEST_9XT	1
 

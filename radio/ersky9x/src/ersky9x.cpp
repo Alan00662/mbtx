@@ -198,7 +198,7 @@ uint16_t MainStart ;
 #include "CoOS.h"
 #endif
 
-#include "../../common/hand.lbm"
+#include "../common/hand.lbm"
 
 #ifdef BLUETOOTH
 #include "bluetooth.h"
