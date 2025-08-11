@@ -356,7 +356,7 @@ FULL_PRJ = $(PROJECT)_rom
 
 ifdef OBJROOT
 else
-OBJROOT = .
+OBJROOT = .\..\obj
 endif
 OBJDIR = $(OBJROOT)\obj_$(PROJECT)
 
@@ -1395,7 +1395,7 @@ $(AOBJS) : $(OBJDIR)/%.o : %.s
 #	$(BIN) $< $@
 
 %bin: %elf
-	$(BINX) $< $@
+	$(BINX) $< $(OBJROOT)/$@
 
 clean:
 #	-rm -f x9dobj/*.*
@@ -1434,7 +1434,7 @@ clean:
 	-rm -f $(OBJROOT)/obj_x9LiteS/*.*
 	-rm -f $(OBJROOT)/obj_x10/*.*
 	-rm -f $(OBJROOT)/obj_x10E/*.*
-	-rm -f $(OBJROOT)/obj_tx16s/*.*
+	-rm -f $(OBJROOT)/../obj/obj_tx16s/*.*
 	-rm -f $(OBJROOT)/obj_tx18s/*.*
 	-rm -f $(OBJROOT)/obj_aruni/*.*
 #	-rm -f $(FULL_PRJ).elf
